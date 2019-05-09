@@ -100,15 +100,21 @@
         <Button
             android:id="@+id/btnArray"
             android:layout_width="match_parent"
-            android:layout_height="62dp"
+            android:layout_height="wrap_content"
             android:text="Lista" />
 
         <Button
             android:id="@+id/btnlimpar"
             android:layout_width="match_parent"
-            android:layout_height="1dp"
+            android:layout_height="4dp"
             android:layout_weight="1"
             android:text="Limpar" />
+
+        <Button
+            android:id="@+id/btnverificar"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Verificar" />
 
         <Button
             android:id="@+id/btnincluir"
