@@ -2,7 +2,6 @@ package com.example.aluno.telacadastro
 
 import android.content.ContentValues
 import android.content.Context
-import  com.example.aluno.telacadastro.R.id.*
 import org.jetbrains.anko.db.*
 import java.util.*
 
@@ -24,15 +23,15 @@ class UsuarioRepository(val context: Context) {
                         var id = columns.getValue("id")
                         var nome = columns.getValue("nome")
                         var senha = columns.getValue("senha")
-                        var created = columns.getValue("created")
                         var login = columns.getValue("login")
+                        var created = columns.getValue("created")
+
 
                         var u = Usuario(
                                 nome.toString(),
                                 "teste@teste",
                                 senha.toString(),
-                                login.toString()
-                                )
+                                login.toString())
 
 
                         usuarios.add(u)

@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
-import com.example.aluno.telacadastro.R.id.*
 import kotlinx.android.synthetic.*
 import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.*
@@ -16,7 +15,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-      val btnArray: Button = findViewById<Button>(R.id.btnArray)
+        setContentView(R.layout.activity_main)
+
+        val btnArray: Button = findViewById<Button>(R.id.btnArray)
         val btnincluir: Button = findViewById<Button>(R.id.btnincluir)
         val btnlimpar: Button = findViewById<Button>(R.id.btnlimpar)
         val btnverificar: Button = findViewById<Button>(R.id.btnverificar)
