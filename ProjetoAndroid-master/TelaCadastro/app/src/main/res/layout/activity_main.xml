@@ -89,6 +89,7 @@
             android:textAlignment="center"
             android:textSize="20sp" />
 
+
         <EditText
             android:id="@+id/txtsenha"
             android:layout_width="300dp"
@@ -98,30 +99,30 @@
             android:inputType="textPassword" />
 
         <Button
-            android:id="@+id/btnArray"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Lista" />
-
-        <Button
             android:id="@+id/btnlimpar"
             android:layout_width="match_parent"
-            android:layout_height="4dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Limpar" />
 
         <Button
             android:id="@+id/btnverificar"
             android:layout_width="match_parent"
-            android:layout_height="35dp"
+            android:layout_height="wrap_content"
             android:text="Verificar" />
 
         <Button
             android:id="@+id/btnincluir"
             android:layout_width="match_parent"
-            android:layout_height="8dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Incluir" />
+
+        <Button
+            android:id="@+id/btnVerificarEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verificação de email" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

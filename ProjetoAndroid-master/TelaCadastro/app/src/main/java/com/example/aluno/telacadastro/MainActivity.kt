@@ -2,9 +2,11 @@ package com.example.aluno.telacadastro
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.provider.ContactsContract
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
+import com.example.aluno.telacadastro.R.id.*
 import kotlinx.android.synthetic.*
 import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.*
@@ -17,7 +19,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btnArray: Button = findViewById<Button>(R.id.btnArray)
+
+
         val btnincluir: Button = findViewById<Button>(R.id.btnincluir)
         val btnlimpar: Button = findViewById<Button>(R.id.btnlimpar)
         val btnverificar: Button = findViewById<Button>(R.id.btnverificar)
@@ -27,9 +30,15 @@ class MainActivity : AppCompatActivity() {
 
 
 
+
+
+
+
+
+
         btnincluir.setOnClickListener(View.OnClickListener {
             var u: Usuario = Usuario(
-                   txtnome.text.toString(),
+                    txtnome.text.toString(),
                     txtemail.text.toString(),
                     txtlogin.text.toString(),
                     txtsenha.text.toString()
@@ -55,6 +64,10 @@ class MainActivity : AppCompatActivity() {
             }
         })
 
+        btnVerificarEmail.setOnClickListener (View.OnClickListener {
+
+        })
+
 
 
 
@@ -67,9 +80,6 @@ class MainActivity : AppCompatActivity() {
 
         })
 
-        btnArray.setOnClickListener(View.OnClickListener {
-            startActivity<tela_Array>()
-        })
 
 
     }

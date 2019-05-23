@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "421066331880",
+    "firebase_url": "https://tela-cadastro-d142a.firebaseio.com",
+    "project_id": "tela-cadastro-d142a",
+    "storage_bucket": "tela-cadastro-d142a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421066331880:android:cab33811bcf0a4e0",
+        "android_client_info": {
+          "package_name": "com.example.aluno.telacadastro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421066331880-npf4oo9rt579sjqqfph7qo67j8h59rk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYoYf5Uz1iudSeJ914qczpRwsK6hTB3UA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421066331880-npf4oo9rt579sjqqfph7qo67j8h59rk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
